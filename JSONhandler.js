@@ -17,7 +17,7 @@ function renderInfo(dataDump) {
     var htmlOutput = "";
 
     for (i=0; i < dataDump.length; i++){
-        htmlOutput += "<p>" + dataDump[i].name + "<br> Starting Strength: " + 
+        htmlOutput += "<p> <h2>" + dataDump[i].Name + "</h2><br> Starting Strength: " + 
         dataDump[i].StartStren + " <br> Strength per level: " + dataDump[i].StrenBonus
         + "<br> Starting Agility: " + dataDump[i].StartAgility + "<br> Agility per
         level: " + dataDump[i].AgilityBonus + " <br> Starting Intelligence: " +
