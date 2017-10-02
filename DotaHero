@@ -1,0 +1,15 @@
+{
+    {
+        "Name" : "Abbadon",
+        "Talent" : "Strength",
+        "StartStren" : 23,
+        "StrenBonus" : 2.3,
+        "StartAgility" : 17,
+        "AgilityBonus" : 1.5,
+        "StartIntell" : 21,
+        "IntellBonus" : 2,
+        "StartHealth" : 660,
+        "StartMana" : 306,
+        "Damage" : 65
+    }
+}
