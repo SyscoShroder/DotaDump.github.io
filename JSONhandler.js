@@ -1,5 +1,5 @@
 var button = document.getElementById("Button");
-var HeroFiller = document.getElementById("Hero-info);
+var HeroFiller = document.getElementById("Hero-info");
 
 button.addEventListener("Click", function() {
 var request = new XLMHttpRequest();
@@ -8,7 +8,8 @@ request.open('GET', "https://syscoshroder.github.io/DotaDump.github.io/DotaHero.
 request.onload = function(){
 var Data = JSON.parse(request.responseText);
 renderInfo(Data);
-};
+}
+
 request.send();
 });
 
