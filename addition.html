@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Figure 11.7 </title>
+
+      <script type = "text/javascript">
+        // Read in 10 intergers from 10 - 100 and if there is dupilcates, notify the user. Create as small of an array as possible.
+        {
+            var arti = ["The", "A", "One", "Some", "Any"];
+            var noun = ["boy", "girl", "dog", "town", "car"];
+            var verb = ["drove", "jumped", "ran", "walked", "skipped"];
+            var prep = ["to", "from", "over", "under", "on"];
+
+            document.getElementById("textarea").innerHTML = ("Once upon a time ... <br>");
+
+            for (var i = 0; i < 20; i++)
+            {
+                var rando1 = Math.floor(Math.random() * 5);
+                var rando2 = Math.floor(Math.random() * 5);
+                var rando3 = Math.floor(Math.random() * 5);
+                var rando4 = Math.floor(Math.random() * 5);
+
+                document.getElementById("textarea").innerHTML = ( arti[rando1] + " " + noun[rando2] + " " + verb[rando3] + " " + prep[rando4] + " . <br>");
+            }
+
+            document.getElementById("textarea").innerHTML = ("THE END. <br>");
+
+        } // End of function
+
+      </script>
+   </head>
+
+   <body>
+    <p id = "textarea"> </p>
+
+   </body>
+</html>
