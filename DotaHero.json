@@ -1,4 +1,6 @@
+
 {
+   "heroes": [
     {
         "Name" : "Abbadon",
         "Talent" : "Strength",
@@ -64,4 +66,5 @@
         "StartMana" : "229",
         "Damage" : "59"
     }
+      ]
 }
